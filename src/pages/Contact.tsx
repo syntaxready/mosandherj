@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { drawingbg } from '../../images/index';
 
 function Contact() {
   return (
@@ -8,7 +9,7 @@ function Contact() {
       <div className="relative py-24 bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?auto=format&fit=crop&q=80"
+            src={drawingbg}
             alt="Contact"
             className="w-full h-full object-cover opacity-20"
           />
