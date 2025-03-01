@@ -281,6 +281,24 @@ const projects = [
     description: "Installation of Solar powered street lights",
   },
   {
+    title: "Dredging & Shoreline",
+    category: "Dredging & Shoreline",
+    image: dredone,
+    description: "Dredging and Shoreline protection works",
+  },
+  {
+    title: "Dredging & Shoreline",
+    category: "Dredging & Shoreline",
+    image: dredtwo,
+    description: "Dredging and Shoreline protection works",
+  },
+  {
+    title: "Dredging & Shoreline",
+    category: "Dredging & Shoreline",
+    image: dredthree,
+    description: "Dredging and Shoreline protection works",
+  },
+  {
     title: "Other Project",
     category: "Other Project",
     image: more1,
@@ -364,24 +382,6 @@ const projects = [
     image: more14,
     description: "More projects pictures",
   },
-  {
-    title: "Dredging & Shoreline",
-    category: "Dredging & Shoreline",
-    image: dredone,
-    description: "Dredging and Shoreline protection works",
-  },
-  {
-    title: "Dredging & Shoreline",
-    category: "Dredging & Shoreline",
-    image: dredtwo,
-    description: "Dredging and Shoreline protection works",
-  },
-  {
-    title: "Dredging & Shoreline",
-    category: "Dredging & Shoreline",
-    image: dredthree,
-    description: "Dredging and Shoreline protection works",
-  },
 ];
 
 function Projects() {
@@ -450,12 +450,6 @@ function Projects() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-gray-600 mb-4">{project.description}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-500">Completed: {project.completion}</span>
-                    <button className="text-orange-500 hover:text-orange-600 font-semibold">
-                      View Details →
-                    </button>
-                  </div>
                 </div>
               </div>
             ))}

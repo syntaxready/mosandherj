@@ -186,35 +186,20 @@ function About() {
       </div>
 
       {/* Our Partners */}
-      <div className="py-20 bg-gray-100">
+      <div className="py-12 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-16">Our Partners</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <h2 className="text-4xl font-bold text-center mb-12">Our Partners</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              {
-                logo: safety,
-                name: "SafetyStep",
-                description: "Founded in Auckland New Zealand, this multi-national company is well recognized across the globe as the leading expert in the provision of highest quality integrated pedestrian safety systems that combine the very latest innovations in anti-slip technology and glow in the dark capability. Mosand Herj Ltd. serves as the sole representative of the company here in Nigeria, presenting and selling its products and services to businesses and organizations.",
-                link: "https://www.safetystep.com"
-              },
-              {
-                logo: ovatek,
-                name: "Ovatek Inc.",
-                description: "Since 1995, Ovatek Inc. manufacture the world’s only No Service/Repack egg shaped fiberglass life rafts which is Transport Canada & US Coast guards approved and meets Solas SLA regulations. They have a number of advantages over the conventional inflatable life rafts including the facts that they don’t require the expensive annual inspection and repacking.",
-                link: "https://www.ovatek.com"
-              }
+              { logo: safety },
+              { logo: ovatek }
             ].map((partner, index) => (
-              <div key={index} className="text-center bg-white p-6 rounded-lg shadow-md">
+              <div key={index} className="flex justify-center items-center p-4 bg-white rounded-lg shadow-md">
                 <img
                   src={partner.logo}
-                  alt={partner.name}
-                  className="w-24 h-24 object-contain mx-auto mb-4"
+                  alt={`Partner ${index + 1}`}
+                  className="w-40 h-40 object-contain"
                 />
-                <h3 className="text-xl font-bold mb-2">{partner.name}</h3>
-                <p className="text-gray-600 mb-4">{partner.description}</p>
-                <p className="text-blue-500">
-                  <a href={partner.link} target="_blank" rel="noopener noreferrer">{partner.link}</a>
-                </p>
               </div>
             ))}
           </div>
@@ -247,7 +232,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

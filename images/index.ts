@@ -1,4 +1,3 @@
-import hero from "./hero-section.png";
 import construction from "./construction.png";
 import hongzhi from "./gallery/hongzhi.png";
 import Healthcare from "./medical-centre-setup.png";
@@ -105,9 +104,9 @@ import nddc from "./trusted/nddc.jpeg";
 import constructionbg from "./constructionbg.png";
 import drawingbg from "./drawingbg.png";
 import housesbg from "./housesbg.png";
+import oilRig from "./oilRig.jpg";
 
 export {
-  hero,
   construction,
   hongzhi,
   OilGasSupply,
@@ -214,4 +213,5 @@ export {
   constructionbg,
   drawingbg,
   housesbg,
+  oilRig,
 };

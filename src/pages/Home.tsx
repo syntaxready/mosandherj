@@ -1,7 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, Hammer, HardHat, FlaskRound as Flask, Stethoscope } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { hero, construction, Healthcare, PipelineInstallation } from '../../images/index'
+import { construction, Healthcare, PipelineInstallation, oilRig } from '../../images/index'
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <header className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src={hero}
+            src={oilRig}
             alt="Oil and Gas Industry"
             className="w-full h-full object-cover"
           />

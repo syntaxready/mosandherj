@@ -23,44 +23,6 @@ function Medville() {
         </div>
       </div>
 
-      {/* About Medville */}
-      <div className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold mb-6">About Medville</h2>
-              <p className="text-gray-600 mb-4">
-                Medville specializes in providing top-notch construction and maintenance services for healthcare facilities. Our team is dedicated to ensuring that your medical environment is safe, efficient, and up to the highest standards.
-              </p>
-              <p className="text-gray-600 mb-4">
-                With years of experience in the industry, we understand the unique challenges and requirements of healthcare construction. Our goal is to deliver projects that meet your needs and exceed your expectations.
-              </p>
-              <p className="text-gray-600">
-                From new builds to renovations, Medville is here to support your healthcare facility's growth and success.
-              </p>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="text-4xl font-bold text-yellow-500 mb-2">7+</div>
-                <div className="text-gray-600">Years Experience</div>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="text-4xl font-bold text-yellow-500 mb-2">38+</div>
-                <div className="text-gray-600">Projects Completed</div>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="text-4xl font-bold text-yellow-500 mb-2">30+</div>
-                <div className="text-gray-600">Healthcare Facilities</div>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="text-4xl font-bold text-yellow-500 mb-2">95%</div>
-                <div className="text-gray-600">Client Satisfaction</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
       {/* List and Image Section */}
       <div className="py-20">
@@ -91,13 +53,10 @@ function Medville() {
       {/* Our Partners */}
       <div className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-16">Our Partners</h2>
+          <h2 className="text-4xl font-bold text-center mb-16">Our Partner</h2>
           <p className="text-center text-gray-600 mb-8">
             We are partners with Guangdong Hongzhi Biological Technology Co Ltd,
             a Chinese company involved in the development of high-function wound repair materials, dedicated to the overall solution of wound treatment.
-          </p>
-          <p className="text-center text-gray-600 mb-8">
-            For more info visit <a href="http://www.gdhzsw.com" className="text-blue-500">www.gdhzsw.com</a>
           </p>
           <div className="flex justify-center">
             <div className="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
