@@ -6,6 +6,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Medville from './pages/Medville';
+import logoBlack from '/images/logoblack.png';
+import logoWhite from '/images/logowhite.png';
 
 function App() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,7 +20,7 @@ function App() {
                         <div className="flex items-center justify-between h-20">
                             <Link to="/" className="flex items-center space-x-3">
                                 <div className="flex items-center space-x-3">
-                                    <img src="/images/logoblack.png" alt="MOSAND HERJ LTD. Logo" className="w-21 h-20" />
+                                    <img src={logoBlack} alt="MOSAND HERJ LTD. Logo" className="w-21 h-20" />
                                 </div>
                             </Link>
                             <div className="hidden md:block">
@@ -66,7 +68,7 @@ function App() {
                         <div className="grid md:grid-cols-3 gap-8">
                             <div>
                                 <div className="flex items-center space-x-3 mb-4">
-                                    <img src="/images/logowhite.png" alt="MOSAND HERJ LTD. Logo" className="w-21 h-20" />
+                                    <img src={logoWhite} alt="MOSAND HERJ LTD. Logo" className="w-21 h-20" />
                                 </div>
                                 <p className="text-gray-300">
                                     Providing innovative solutions in construction, oil & gas, and healthcare
