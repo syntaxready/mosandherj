@@ -94,7 +94,7 @@ import nalogo from "./trusted/NALOGO.jpg";
 import nnpclogo from "./trusted/NNPCLOGO.jpg";
 import pmclogo from "./trusted/PMCLOGO.jpg";
 import wellscartonlogo from "./trusted/WELLSCARTONLOGO.jpg";
-import ovatek from "./trusted/OVATEK.png";
+import ovatek from "./trusted/ovatek.png";
 import safety from "./trusted/safety.jpg";
 import seplat from "./trusted/seplat.png";
 import shell from "./trusted/shell.png";
