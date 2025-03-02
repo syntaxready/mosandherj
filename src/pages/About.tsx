@@ -172,11 +172,11 @@ function About() {
             efficient solutions for our clients.
           </p>
           <div className="mt-4 flex items-center justify-center gap-3">
-            <img
-              src="/path-to-image.jpg"
-              alt="Morrison Okunbor"
-              className="w-12 h-12 rounded-full object-cover"
-            />
+            {/*<img*/}
+            {/*  src="/path-to-image.jpg"*/}
+            {/*  alt="Morrison Okunbor"*/}
+            {/*  className="w-12 h-12 rounded-full object-cover"*/}
+            {/*/>*/}
             <div>
               <h3 className="text-lg font-semibold">Morrison Okunbor</h3>
               <p className="text-sm text-gray-500">Managing Director</p>
